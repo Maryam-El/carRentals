@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "a94eb9fc-c21c-4c4b-8306-3447f878b5b4",
+		"name": "renting-cars-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "rent a car",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientId\":\"Client6\",\r\n    \"clientLastName\":\"El Arfaoui\",\r\n    \"clientFirstName\":\"Maryam\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/rentCar/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"rentCar",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get rented cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/rentedCars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"rentedCars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "return a car",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/returnCar/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"returnCar",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
