@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.bell.renting.cars.Services.RentingCarPersistenceServiceTest
--------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s - in com.bell.renting.cars.Services.RentingCarPersistenceServiceTest
